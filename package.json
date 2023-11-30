@@ -1,0 +1,19 @@
+{
+  "name": "flowable-task-client",
+  "version": "1.0.0",
+  "description": "A sample project using https://github.com/flowable/flowable-external-client-js",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "test"
+  },
+  "type": "common.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@flowable-oss/external-worker-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "typescript": "^5.3.2"
+  }
+}
