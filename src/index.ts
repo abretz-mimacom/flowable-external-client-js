@@ -13,6 +13,7 @@ const subscription = externalWorkerClient.subscribe({
     numberOfTasks: 1,
     callbackHandler(job: ExternalWorkerAcquireJobResponse, workResultBuilder: WorkerResultBuilder) {
         console.log(`Execute job: ${job.id}`);
+        console.log('Variables:', job.variables.toString());
         return workResultBuilder.success();
     }
 });
