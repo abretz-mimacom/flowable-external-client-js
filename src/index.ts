@@ -1,10 +1,10 @@
 import {ExternalWorkerAcquireJobResponse, ExternalWorkerClient, WorkerResultBuilder} from "@flowable-oss/external-worker-client";
 
 const externalWorkerClient = new ExternalWorkerClient({
-    flowableHost: 'https://internal.celigo-demo.projects.flowable.io',
+    flowableHost: '${FLOWABLE_HOST}',
     auth: {
-        username: 'admin',
-        password: 'faa@sales'
+        username: '${FLOWABLE_USER}',
+        password: '${FLOWABLE_PASS}'
     }
 });
 
