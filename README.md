@@ -13,7 +13,7 @@ An example implementation of Flowable [external-worker-client](https://www.npmjs
 
 ## Build
 
-`npx tcx`
+`npm run build`
 
 ## Run
 `node dist/index.js`
