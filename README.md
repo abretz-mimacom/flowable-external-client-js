@@ -1,5 +1,5 @@
 # flowable-external-client-js
-An example implementation of Flowable [external-worker-client](https://www.npmjs.com/package/@flowable-oss/external-worker-client), which is meant to execute FLowable tasks from an external worker client.
+An example implementation of Flowable [external-worker-client](https://www.npmjs.com/package/@flowable-oss/external-worker-client), which is meant to execute Flowable tasks from an external worker client.
 
 ## Installation 
 `npm i`
