@@ -6,7 +6,9 @@ An example implementation of Flowable [external-worker-client](https://www.npmjs
 
 ## Set env variables
 `export FLOWABLE_HOST=<your_flowable_work_host>`
+
 `export FLOWABLE_USER=<flowable_user_with_admin_rights>`
+
 `export FLOWABLE_PASS=<flowable_user_password>`
 
 ## Build
