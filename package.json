@@ -4,7 +4,8 @@
   "description": "A sample project using https://github.com/flowable/flowable-external-client-js",
   "main": "index.tsx",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "npx tsc"
   },
   "type": "common.js",
   "author": "",
