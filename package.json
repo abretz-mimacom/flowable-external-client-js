@@ -5,13 +5,17 @@
   "main": "index.tsx",
   "scripts": {
     "test": "test",
-    "build": "npx tsc"
+    "build": "cp command.sh dist/command.sh & npx tsc "
   },
   "type": "common.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@flowable-oss/external-worker-client": "^1.0.0"
+    "@flowable-oss/external-worker-client": "^1.0.0",
+    "csv-parser": "^3.0.0",
+    "pg": "^8.11.3",
+    "postgres": "^3.4.3",
+    "ssh2": "^1.14.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.1",
